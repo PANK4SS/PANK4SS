@@ -47,7 +47,7 @@
 </td>
 <td width="50%" valign="top" align="center">
 
-<img src="https://streak-stats.demolab.com/?user=PANK4SS&theme=transparent&hide_border=true" alt="GitHub Streak">
+<img src="https://streak-stats.demolab.com/?user=PANK4SS&theme=transparent&hide_border=true&cache_bust=1" alt="GitHub Streak">
 
 </td>
 </tr>
