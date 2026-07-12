@@ -47,7 +47,25 @@
 </td>
 <td width="50%" valign="top" align="center">
 
-<img src="https://streak-stats.demolab.com/?user=PANK4SS&theme=transparent&hide_border=true&cache_bust=1" alt="GitHub Streak">
+<img src="https://streak-stats.demolab.com/?user=PANK4SS&theme=transparent&hide_border=true&background=00000000&stroke=936CD6&ring=936CD6&fire=936CD6&currStreakLabel=936CD6&sideNums=936CD6&currStreakNum=936CD6&sideLabels=936CD6&dates=936CD6" alt="GitHub Streak" width="100%">
+
+</td>
+</tr>
+</table>
+
+<br>
+<br>
+
+<table width="100%">
+<tr>
+<td width="50%" valign="top" align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=PANK4SS&show_icons=true&hide_border=true&background=00000000&title_color=936CD6&icon_color=936CD6&text_color=FFFFFF" alt="GitHub Stats" width="100%">
+
+</td>
+<td width="50%" valign="top" align="center">
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PANK4SS&layout=compact&hide_border=true&background=00000000&title_color=936CD6&text_color=FFFFFF&langs_count=8" alt="Top Languages" width="100%">
 
 </td>
 </tr>
