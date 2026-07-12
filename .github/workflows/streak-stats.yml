@@ -13,23 +13,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate streak SVG
-        uses: DenverCoder1/github-readme-streak-stats@master
-        with:
-          user_id: PANK4SS
-          stroke: 936CD6
-          ring: 936CD6
-          fire: 936CD6
-          currStreakLabel: 936CD6
-          sideNums: 936CD6
-          currStreakNum: 936CD6
-          sideLabels: 936CD6
-          dates: 936CD6
-          background: 00000000
-          hide_border: true
-          theme: transparent
-          type: svg
-          output: profile/streak.svg
+      - name: Download streak SVG
+        run: |
+          curl -sL "https://streak-stats.demolab.com/?user=PANK4SS&theme=transparent&hide_border=true&background=00000000&stroke=936CD6&ring=936CD6&fire=936CD6&currStreakLabel=936CD6&sideNums=936CD6&currStreakNum=936CD6&sideLabels=936CD6&dates=936CD6" -o profile/streak.svg
 
       - name: Commit and push
         run: |
