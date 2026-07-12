@@ -38,7 +38,7 @@
       }
     }
     .stat {
-      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #FECE00;
+      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #000000;
     }
     @supports(-moz-appearance: auto) {
       /* Selector detects Firefox */
@@ -47,7 +47,7 @@
     .bold { font-weight: 700 }
     .lang-name {
       font: 400 11px "Segoe UI", Ubuntu, Sans-Serif;
-      fill: #FECE00;
+      fill: #000000;
     }
     .stagger {
       opacity: 0;
@@ -118,7 +118,13 @@
           transform="translate(0, 55)"
         >
           
-    <svg data-testid="lang-items" x="25">
+    <svg
+  <style>
+    @media (prefers-color-scheme: dark) {
+      text, line, circle, path, .lang-name { fill: #ffffff !important; stroke: #ffffff !important; }
+      rect:not([fill^="none"]) { fill: #ffffff !important; }
+    }
+  </style>data-testid="lang-items" x="25">
       
   
       <mask id="rect-mask">
