@@ -13,6 +13,6 @@
 </p>
 
 <p align="left" style="display: flex; align-items: center;">
-  <img src="About.png" alt="" style="margin-right: 16px;">
+  <img src="About.png" alt="" style="margin-right: 16px; width: 200px;">
   <img src="Typing.svg" alt="Hey there! I am Pankassi Jean-Louis Rayane BICABA" style="margin-left: 55px; align-self: flex-start;">
 </p>
