@@ -35,18 +35,7 @@ jobs:
         run: |
           sed -i 's|<svg |<svg\n  <style>\n    @media (prefers-color-scheme: dark) {\n      text, line, circle, path, .stat, .stat-label { fill: #ffffff !important; stroke: #ffffff !important; }\n      rect:not([fill^="none"]) { fill: #ffffff !important; }\n    }\n  </style>|' profile/stats.svg
           sed -i 's|<svg |<svg\n  <style>\n    @media (prefers-color-scheme: dark) {\n      text, line, circle, path, .lang-name { fill: #ffffff !important; stroke: #ffffff !important; }\n      rect:not([fill^="none"]) { fill: #ffffff !important; }\n    }\n  </style>|' profile/top-langs.svg
-          python3 -c "
-import re
-content = open('profile/graph.svg').read()
-style = '''<style>
-@media (prefers-color-scheme: dark) {
-  .ct-label, .ct-grid, .ct-point, .ct-line, .ct-area, .ct-series-a .ct-area, .ct-axis-title, .header { fill: #ffffff !important; stroke: #ffffff !important; color: #ffffff !important; }
-}
-</style>
-'''
-content = re.sub(r'(<svg[\s\S]*?>)', r'\1\n' + style, content, 1)
-open('profile/graph.svg', 'w').write(content)
-"
+          python3 -c "import re; c=open('profile/graph.svg').read(); s='<style>\n@media (prefers-color-scheme: dark) {\n  .ct-label, .ct-grid, .ct-point, .ct-line, .ct-area, .ct-series-a .ct-area, .ct-axis-title, .header { fill: #ffffff !important; stroke: #ffffff !important; color: #ffffff !important; }\n}\n</style>\n'; open('profile/graph.svg','w').write(re.sub(r'(<svg[\s\S]*?>)',lambda m: m.group(1)+'\n'+s,c,1))"
 
       - name: Commit cards
         run: |
