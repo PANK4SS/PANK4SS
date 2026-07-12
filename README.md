@@ -46,11 +46,11 @@
 
 **Core Stack**
 
-<img src="https://skillicons.dev/icons?i=angular,java,spring,postgres,mysql,capacitor" />
+<img src="https://skillicons.dev/icons?i=angular,java,spring,postgres,mysql" />
 
 **Also Comfortable With**
 
-<img src="https://skillicons.dev/icons?i=python,flask,mongodb,oracle,react" />
+<img src="https://skillicons.dev/icons?i=python,flask,mongodb,react" />
 
 </td>
 <td width="50%" valign="top" align="center">
