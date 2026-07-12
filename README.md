@@ -23,7 +23,7 @@
   <br><br>
   Tinkerer at heart. Breaks things to understand them, builds things to test the limits.<br>
   No stack trace left unread.<br>
-  Curious by default — not boxed into a title, not defined by a role. Drawn to what's elegant and robust, whether it's backend, frontend, or AI.<br><br>
+  Curious by default not boxed into a title, not defined by a role. Drawn to what's elegant and robust, whether it's backend, frontend, or AI.<br><br>
   <code>while(true) { fail(); learn(); rebuild(); }</code>
 </td>
 </tr>
