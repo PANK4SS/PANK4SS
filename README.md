@@ -55,7 +55,7 @@
 </td>
 <td width="50%" valign="top" align="center">
 
-<img src="./profile/streak.svg" alt="GitHub Streak" width="100%">
+<img src="https://streak-stats.demolab.com/?user=PANK4SS&theme=transparent&hide_border=true&background=00000000&stroke=BDF400&ring=BDF400&fire=BDF400&currStreakLabel=BDF400&sideNums=BDF400&currStreakNum=BDF400&sideLabels=BDF400&dates=BDF400" alt="GitHub Streak" width="100%">
 
 </td>
 </tr>
@@ -68,12 +68,12 @@
 <tr>
 <td width="50%" valign="top" align="center">
 
-<img src="./profile/stats.svg" alt="GitHub Stats" width="100%">
+<img src="https://github-readme-stats-iota-ebon-40.vercel.app/api?username=PANK4SS&show_icons=true&hide_border=true&bg_color=00000000&title_color=BDF400&icon_color=BDF400&text_color=BDF400" alt="GitHub Stats" width="100%">
 
 </td>
 <td width="50%" valign="top" align="center">
 
-<img src="./profile/top-langs.svg" alt="Top Languages" width="100%">
+<img src="https://github-readme-stats-iota-ebon-40.vercel.app/api/top-langs/?username=PANK4SS&layout=compact&hide_border=true&bg_color=00000000&title_color=BDF400&text_color=BDF400&langs_count=8" alt="Top Languages" width="100%">
 
 </td>
 </tr>
@@ -82,8 +82,6 @@
 <br>
 <br>
 
-<picture align="center">
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=PANK4SS&bg_color=00000000&color=ffffff&line=BDF400&point=BDF400&area=true&area_color=BDF400&hide_border=true&custom_title=Contribution%20Evolution">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=PANK4SS&bg_color=00000000&color=000000&line=BDF400&point=BDF400&area=true&area_color=BDF400&hide_border=true&custom_title=Contribution%20Evolution">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=PANK4SS&bg_color=00000000&color=000000&line=BDF400&point=BDF400&area=true&area_color=BDF400&hide_border=true&custom_title=Contribution%20Evolution" alt="Contribution Evolution" width="100%">
-</picture>
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=PANK4SS&bg_color=00000000&color=BDF400&line=BDF400&point=BDF400&area=true&area_color=BDF400&hide_border=true&custom_title=Contribution%20Evolution" alt="Contribution Evolution" width="100%">
+</p>
