@@ -13,28 +13,22 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Stats card (light mode base)
+      - name: Stats card
         run: |
           curl -sL -H "User-Agent: Mozilla/5.0" \
-            "https://github-readme-stats-iota-ebon-40.vercel.app/api?username=PANK4SS&show_icons=true&hide_border=true&bg_color=00000000&title_color=000000&icon_color=000000&text_color=000000" \
+            "https://github-readme-stats-iota-ebon-40.vercel.app/api?username=PANK4SS&show_icons=true&hide_border=true&bg_color=00000000&title_color=FECE00&icon_color=FECE00&text_color=FECE00" \
             -o profile/stats.svg
 
-      - name: Top languages (light mode base)
+      - name: Top languages
         run: |
           curl -sL -H "User-Agent: Mozilla/5.0" \
-            "https://github-readme-stats-iota-ebon-40.vercel.app/api/top-langs/?username=PANK4SS&layout=compact&hide_border=true&bg_color=00000000&title_color=000000&text_color=000000&langs_count=8" \
+            "https://github-readme-stats-iota-ebon-40.vercel.app/api/top-langs/?username=PANK4SS&layout=compact&hide_border=true&bg_color=00000000&title_color=FECE00&text_color=FECE00&langs_count=8" \
             -o profile/top-langs.svg
-
-      - name: Inject dark mode CSS into cards
-        run: |
-          sed -i 's|<svg |<svg\n  <style>\n    @media (prefers-color-scheme: dark) {\n      text, line, circle, path, .stat, .stat-label { fill: #ffffff !important; stroke: #ffffff !important; }\n      rect:not([fill^="none"]) { fill: #ffffff !important; }\n    }\n  </style>|' profile/stats.svg
-          sed -i 's|<svg |<svg\n  <style>\n    @media (prefers-color-scheme: dark) {\n      text, line, circle, path, .lang-name { fill: #ffffff !important; stroke: #ffffff !important; }\n      rect:not([fill^="none"]) { fill: #ffffff !important; }\n    }\n  </style>|' profile/top-langs.svg
 
       - name: Commit cards
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git rm -f profile/stats-dark.svg profile/stats-light.svg profile/top-langs-dark.svg profile/top-langs-light.svg 2>/dev/null || true
           git add profile/stats.svg profile/top-langs.svg
           git diff --staged --quiet || git commit -m "Update README cards"
           git push

@@ -13,21 +13,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Download streak SVG (black text - light mode base)
+      - name: Download streak SVG
         run: |
           curl -sL -H "User-Agent: Mozilla/5.0" \
-            "https://streak-stats.demolab.com/?user=PANK4SS&theme=transparent&hide_border=true&background=00000000&stroke=000000&ring=000000&fire=000000&currStreakLabel=000000&sideNums=000000&currStreakNum=000000&sideLabels=000000&dates=000000" \
+            "https://streak-stats.demolab.com/?user=PANK4SS&theme=transparent&hide_border=true&background=00000000&stroke=FECE00&ring=FECE00&fire=FECE00&currStreakLabel=FECE00&sideNums=FECE00&currStreakNum=FECE00&sideLabels=FECE00&dates=FECE00" \
             -o profile/streak.svg
-
-      - name: Inject dark mode CSS
-        run: |
-          sed -i 's|<svg |<svg\n  <style>\n    @media (prefers-color-scheme: dark) {\n      text, line, circle, path { fill: #ffffff !important; stroke: #ffffff !important; }\n      rect { stroke: #ffffff !important; }\n      .ct-label, .ct-grid, .ct-line, .ct-point, .ct-area { fill: #ffffff !important; stroke: #ffffff !important; }\n    }\n  </style>|' profile/streak.svg
 
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git rm -f profile/streak-dark.svg profile/streak-light.svg 2>/dev/null || true
           git add profile/streak.svg
           git diff --staged --quiet || git commit -m "Update streak stats"
           git push
