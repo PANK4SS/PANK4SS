@@ -47,8 +47,7 @@
 </td>
 <td width="50%" valign="top" align="center">
 
-<img src="https://streak-stats.demolab.com/?user=PANK4SS&theme=transparent&hide_border=true&background=00000000&stroke=FFFFFF&ring=FFFFFF&fire=FFFFFF&currStreakLabel=FFFFFF&sideNums=FFFFFF&currStreakNum=FFFFFF&sideLabels=FFFFFF&dates=FFFFFF#gh-dark-mode-only" alt="GitHub Streak">
-<img src="https://streak-stats.demolab.com/?user=PANK4SS&theme=transparent&hide_border=true&background=00000000&stroke=000000&ring=000000&fire=000000&currStreakLabel=000000&sideNums=000000&currStreakNum=000000&sideLabels=000000&dates=000000#gh-light-mode-only" alt="GitHub Streak">
+<img src="https://streak-stats.demolab.com/?user=PANK4SS&theme=transparent&hide_border=true&background=00000000&stroke=FF4500&ring=FF4500&fire=FF4500&currStreakLabel=FF4500&sideNums=888888&currStreakNum=FF4500&sideLabels=888888&dates=888888" alt="GitHub Streak">
 
 </td>
 </tr>
