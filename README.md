@@ -47,7 +47,7 @@
 </td>
 <td width="50%" valign="top" align="center">
 
-<img src="https://streak-stats.demolab.com/?user=PANK4SS&theme=transparent&hide_border=true&background=00000000&stroke=936CD6&ring=936CD6&fire=936CD6&currStreakLabel=936CD6&sideNums=936CD6&currStreakNum=936CD6&sideLabels=936CD6&dates=936CD6" alt="GitHub Streak" width="100%">
+<img src="./profile/streak.svg" alt="GitHub Streak" width="100%">
 
 </td>
 </tr>

@@ -1,0 +1,40 @@
+name: Update Streak Stats
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-streak:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate streak SVG
+        uses: DenverCoder1/github-readme-streak-stats@master
+        with:
+          user_id: PANK4SS
+          stroke: 936CD6
+          ring: 936CD6
+          fire: 936CD6
+          currStreakLabel: 936CD6
+          sideNums: 936CD6
+          currStreakNum: 936CD6
+          sideLabels: 936CD6
+          dates: 936CD6
+          background: 00000000
+          hide_border: true
+          theme: transparent
+          type: svg
+          output: profile/streak.svg
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add profile/streak.svg
+          git diff --staged --quiet || git commit -m "Update streak stats"
+          git push
