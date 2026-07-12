@@ -4,7 +4,6 @@
 
 <br>
 <br>
-<br>
 
 <p align="center">
   <img src="Motif.svg" alt="" height="20" style="vertical-align: middle;">
