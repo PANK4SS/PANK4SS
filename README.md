@@ -48,9 +48,9 @@
 <td width="50%" valign="top" align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=RayaneBICABA&theme=transparent&hide_border=true&background=00000000&stroke=FFFFFF&ring=FFFFFF&fire=FFFFFF&currStreakLabel=FFFFFF&sideNums=FFFFFF&currStreakNum=FFFFFF&sideLabels=FFFFFF&dates=FFFFFF">
-  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=RayaneBICABA&theme=transparent&hide_border=true&background=00000000&stroke=000000&ring=000000&fire=000000&currStreakLabel=000000&sideNums=000000&currStreakNum=000000&sideLabels=000000&dates=000000">
-  <img alt="GitHub Streak" src="https://streak-stats.demolab.com/?user=RayaneBICABA&theme=transparent&hide_border=true&background=00000000&stroke=000000&ring=000000&fire=000000&currStreakLabel=000000&sideNums=000000&currStreakNum=000000&sideLabels=000000&dates=000000">
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=PANK4SS&theme=transparent&hide_border=true&background=00000000&stroke=FFFFFF&ring=FFFFFF&fire=FFFFFF&currStreakLabel=FFFFFF&sideNums=FFFFFF&currStreakNum=FFFFFF&sideLabels=FFFFFF&dates=FFFFFF">
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=PANK4SS&theme=transparent&hide_border=true&background=00000000&stroke=000000&ring=000000&fire=000000&currStreakLabel=000000&sideNums=000000&currStreakNum=000000&sideLabels=000000&dates=000000">
+  <img alt="GitHub Streak" src="https://streak-stats.demolab.com/?user=PANK4SS&theme=transparent&hide_border=true&background=00000000&stroke=000000&ring=000000&fire=000000&currStreakLabel=000000&sideNums=000000&currStreakNum=000000&sideLabels=000000&dates=000000">
 </picture>
 
 </td>
