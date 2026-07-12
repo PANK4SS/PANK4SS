@@ -7,12 +7,25 @@
 <br>
 
 <p align="center">
-  <img src="Motif.svg" alt="" style="height: 1em; vertical-align: middle; margin-right: 12px;">
-  <strong style="font-size: 1.5em; vertical-align: middle;">About Me</strong>
-  <img src="Motif.svg" alt="" style="height: 1em; vertical-align: middle; margin-left: 12px; transform: scaleX(-1);">
+  <img src="Motif.svg" alt="" height="20" style="vertical-align: middle;">
+  <strong style="font-size: 1.5em; vertical-align: middle;"> About Me </strong>
+  <img src="Motif.svg" alt="" height="20" style="vertical-align: middle; transform: scaleX(-1);">
 </p>
 
-<p align="left" style="display: flex; align-items: center;">
-  <img src="About.png" alt="" style="margin-right: 16px; width: 200px;">
-  <img src="Typing.svg" alt="Hey there! I am Pankassi Jean-Louis Rayane BICABA" style="margin-left: 55px; align-self: flex-start;">
-</p>
+<br>
+
+<table>
+<tr>
+<td width="200" valign="top" align="center">
+  <img src="About.png" width="180">
+</td>
+<td valign="top">
+  <img src="Typing.svg" alt="Hey there! I am Pankassi Jean-Louis Rayane BICABA">
+  <br><br>
+  Tinkerer at heart. Breaks things to understand them, builds things to test the limits.<br>
+  No stack trace left unread.<br>
+  Curious by default — not boxed into a title, not defined by a role. Drawn to what's elegant and robust, whether it's backend, frontend, or AI.<br><br>
+  <code>while(true) { fail(); learn(); rebuild(); }</code>
+</td>
+</tr>
+</table>
