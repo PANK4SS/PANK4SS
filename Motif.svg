@@ -4,8 +4,8 @@
     .fill { fill: #000000; }
     .none { fill: none; }
     @media (prefers-color-scheme: dark) {
-      .stroke { stroke: #ffffff; }
-      .fill { fill: #ffffff; }
+      .stroke { stroke: #BDF400; }
+      .fill { fill: #BDF400; }
     }
   </style>
   <g transform="translate(-5.7080646,-86.602622)">

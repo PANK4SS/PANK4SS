@@ -30,8 +30,8 @@
       fill: #000000;
     }
     @media (prefers-color-scheme: dark) {
-      text { fill: #ffffff; }
-      .cursor { fill: #ffffff; }
+      text { fill: #BDF400; }
+      .cursor { fill: #BDF400; }
     }
   </style>
   <g clip-path="url(#reveal)">
