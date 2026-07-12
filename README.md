@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Pankass.png" alt="Pankass">
+  <img src="Pankass.webp" alt="Pankass">
 </p>
 
 <br>
@@ -16,7 +16,7 @@
 <table width="100%">
 <tr>
 <td width="35%" valign="top" align="center">
-  <img src="About.png" width="100%" style="max-width:230px;">
+  <img src="About.webp" width="100%" style="max-width:230px;">
 </td>
 <td valign="top">
   <img src="Typing.svg" alt="Hey there! I am Pankassi Jean-Louis Rayane BICABA">
