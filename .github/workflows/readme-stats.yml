@@ -15,19 +15,19 @@ jobs:
 
       - name: Stats card (dark mode)
         run: |
-          curl -sL -H "User-Agent: Mozilla/5.0" "https://github-readme-stats.vercel.app/api?username=PANK4SS&show_icons=true&hide_border=true&background=00000000&title_color=FFFFFF&icon_color=FFFFFF&text_color=FFFFFF" -o profile/stats-dark.svg
+          curl -sL -H "User-Agent: Mozilla/5.0" "https://github-readme-stats-iota-ebon-40.vercel.app/api?username=PANK4SS&show_icons=true&hide_border=true&bg_color=00000000&title_color=FFFFFF&icon_color=FFFFFF&text_color=FFFFFF" -o profile/stats-dark.svg
 
       - name: Stats card (light mode)
         run: |
-          curl -sL -H "User-Agent: Mozilla/5.0" "https://github-readme-stats.vercel.app/api?username=PANK4SS&show_icons=true&hide_border=true&background=00000000&title_color=000000&icon_color=000000&text_color=000000" -o profile/stats-light.svg
+          curl -sL -H "User-Agent: Mozilla/5.0" "https://github-readme-stats-iota-ebon-40.vercel.app/api?username=PANK4SS&show_icons=true&hide_border=true&bg_color=00000000&title_color=000000&icon_color=000000&text_color=000000" -o profile/stats-light.svg
 
       - name: Top languages (dark mode)
         run: |
-          curl -sL -H "User-Agent: Mozilla/5.0" "https://github-readme-stats.vercel.app/api/top-langs/?username=PANK4SS&layout=compact&hide_border=true&background=00000000&title_color=FFFFFF&text_color=FFFFFF&langs_count=8" -o profile/top-langs-dark.svg
+          curl -sL -H "User-Agent: Mozilla/5.0" "https://github-readme-stats-iota-ebon-40.vercel.app/api/top-langs/?username=PANK4SS&layout=compact&hide_border=true&bg_color=00000000&title_color=FFFFFF&text_color=FFFFFF&langs_count=8" -o profile/top-langs-dark.svg
 
       - name: Top languages (light mode)
         run: |
-          curl -sL -H "User-Agent: Mozilla/5.0" "https://github-readme-stats.vercel.app/api/top-langs/?username=PANK4SS&layout=compact&hide_border=true&background=00000000&title_color=000000&text_color=000000&langs_count=8" -o profile/top-langs-light.svg
+          curl -sL -H "User-Agent: Mozilla/5.0" "https://github-readme-stats-iota-ebon-40.vercel.app/api/top-langs/?username=PANK4SS&layout=compact&hide_border=true&bg_color=00000000&title_color=000000&text_color=000000&langs_count=8" -o profile/top-langs-light.svg
 
       - name: Commit cards
         run: |
