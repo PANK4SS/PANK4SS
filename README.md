@@ -55,7 +55,10 @@
 </td>
 <td width="50%" valign="top" align="center">
 
-<img src="https://streak-stats.demolab.com/?user=PANK4SS&theme=transparent&hide_border=true&background=00000000&stroke=BDF400&ring=BDF400&fire=BDF400&currStreakLabel=BDF400&sideNums=BDF400&currStreakNum=BDF400&sideLabels=BDF400&dates=BDF400" alt="GitHub Streak" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=PANK4SS&theme=transparent&hide_border=true&background=00000000&stroke=ffffff&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideNums=ffffff&currStreakNum=ffffff&sideLabels=ffffff&dates=ffffff">
+  <img src="https://streak-stats.demolab.com/?user=PANK4SS&theme=transparent&hide_border=true&background=00000000&stroke=000000&ring=000000&fire=000000&currStreakLabel=000000&sideNums=000000&currStreakNum=000000&sideLabels=000000&dates=000000" alt="GitHub Streak" width="100%">
+</picture>
 
 </td>
 </tr>
@@ -68,12 +71,18 @@
 <tr>
 <td width="50%" valign="top" align="center">
 
-<img src="https://github-readme-stats-iota-ebon-40.vercel.app/api?username=PANK4SS&show_icons=true&hide_border=true&bg_color=00000000&title_color=BDF400&icon_color=BDF400&text_color=BDF400" alt="GitHub Stats" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-iota-ebon-40.vercel.app/api?username=PANK4SS&show_icons=true&hide_border=true&bg_color=00000000&title_color=ffffff&icon_color=ffffff&text_color=ffffff">
+  <img src="https://github-readme-stats-iota-ebon-40.vercel.app/api?username=PANK4SS&show_icons=true&hide_border=true&bg_color=00000000&title_color=000000&icon_color=000000&text_color=000000" alt="GitHub Stats" width="100%">
+</picture>
 
 </td>
 <td width="50%" valign="top" align="center">
 
-<img src="https://github-readme-stats-iota-ebon-40.vercel.app/api/top-langs/?username=PANK4SS&layout=compact&hide_border=true&bg_color=00000000&title_color=BDF400&text_color=BDF400&langs_count=8" alt="Top Languages" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-iota-ebon-40.vercel.app/api/top-langs/?username=PANK4SS&layout=compact&hide_border=true&bg_color=00000000&title_color=ffffff&text_color=ffffff&langs_count=8">
+  <img src="https://github-readme-stats-iota-ebon-40.vercel.app/api/top-langs/?username=PANK4SS&layout=compact&hide_border=true&bg_color=00000000&title_color=000000&text_color=000000&langs_count=8" alt="Top Languages" width="100%">
+</picture>
 
 </td>
 </tr>
@@ -82,6 +91,7 @@
 <br>
 <br>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=PANK4SS&bg_color=00000000&color=BDF400&line=BDF400&point=BDF400&area=true&area_color=BDF400&hide_border=true&custom_title=Contribution%20Evolution" alt="Contribution Evolution" width="100%">
-</p>
+<picture align="center">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=PANK4SS&bg_color=00000000&color=ffffff&line=ffffff&point=ffffff&area=true&area_color=ffffff&hide_border=true&custom_title=Contribution%20Evolution">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=PANK4SS&bg_color=00000000&color=000000&line=000000&point=000000&area=true&area_color=000000&hide_border=true&custom_title=Contribution%20Evolution" alt="Contribution Evolution" width="100%">
+</picture>
