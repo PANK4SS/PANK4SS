@@ -13,21 +13,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate stats card
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: stats
-          options: username=PANK4SS&show_icons=true&hide_border=true&theme=transparent&title_color=936CD6&icon_color=936CD6&text_color=FFFFFF
-          path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Download stats SVG
+        run: |
+          curl -sL "https://github-readme-stats.vercel.app/api?username=PANK4SS&show_icons=true&hide_border=true&background=00000000&title_color=936CD6&icon_color=936CD6&text_color=FFFFFF" -o profile/stats.svg
 
-      - name: Generate top languages card
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: top-langs
-          options: username=PANK4SS&layout=compact&hide_border=true&theme=transparent&title_color=936CD6&text_color=FFFFFF
-          path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Download top languages SVG
+        run: |
+          curl -sL "https://github-readme-stats.vercel.app/api/top-langs/?username=PANK4SS&layout=compact&hide_border=true&background=00000000&title_color=936CD6&text_color=FFFFFF&langs_count=8" -o profile/top-langs.svg
 
       - name: Commit cards
         run: |

@@ -60,12 +60,12 @@
 <tr>
 <td width="50%" valign="top" align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=PANK4SS&show_icons=true&hide_border=true&background=00000000&title_color=936CD6&icon_color=936CD6&text_color=FFFFFF" alt="GitHub Stats" width="100%">
+<img src="./profile/stats.svg" alt="GitHub Stats" width="100%">
 
 </td>
 <td width="50%" valign="top" align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PANK4SS&layout=compact&hide_border=true&background=00000000&title_color=936CD6&text_color=FFFFFF&langs_count=8" alt="Top Languages" width="100%">
+<img src="./profile/top-langs.svg" alt="Top Languages" width="100%">
 
 </td>
 </tr>
