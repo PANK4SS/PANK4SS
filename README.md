@@ -14,13 +14,18 @@
 
 <br>
 
-<img src="About.png" width="230" align="left">
-
-<img src="Typing.svg" alt="Hey there! I am Pankassi Jean-Louis Rayane BICABA">
-<br><br>
-Tinkerer at heart. Breaks things to understand them, builds things to test the limits.<br>
-No stack trace left unread.<br>
-Curious by default — not boxed into a title, not defined by a role. Drawn to what's elegant and robust, whether it's backend, frontend, or AI.<br><br>
-<code>while(true) { fail(); learn(); rebuild(); }</code>
-
-<br clear="left">
+<table>
+<tr>
+<td width="250" valign="top" align="center">
+  <img src="About.png" width="230">
+</td>
+<td valign="top">
+  <img src="Typing.svg" alt="Hey there! I am Pankassi Jean-Louis Rayane BICABA">
+  <br><br>
+  Tinkerer at heart. Breaks things to understand them, builds things to test the limits.<br>
+  No stack trace left unread.<br>
+  Curious by default — not boxed into a title, not defined by a role. Drawn to what's elegant and robust, whether it's backend, frontend, or AI.<br><br>
+  <code>while(true) { fail(); learn(); rebuild(); }</code>
+</td>
+</tr>
+</table>
