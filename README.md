@@ -83,5 +83,5 @@
 <br>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=PANK4SS&bg_color=00000000&color=936CD6&line=936CD6&point=936CD6&area=true&area_color=936CD6&hide_border=true&custom_title=Contribution%20Evolution" width="100%">
+  <img src="./profile/graph.svg" alt="Contribution Evolution" width="100%">
 </p>

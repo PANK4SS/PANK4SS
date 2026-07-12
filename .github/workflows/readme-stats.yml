@@ -25,16 +25,23 @@ jobs:
             "https://github-readme-stats-iota-ebon-40.vercel.app/api/top-langs/?username=PANK4SS&layout=compact&hide_border=true&bg_color=00000000&title_color=000000&text_color=000000&langs_count=8" \
             -o profile/top-langs.svg
 
+      - name: Contribution graph (light mode base)
+        run: |
+          curl -sL -H "User-Agent: Mozilla/5.0" \
+            "https://github-readme-activity-graph.vercel.app/graph?username=PANK4SS&bg_color=00000000&color=000000&line=000000&point=000000&area=true&area_color=000000&hide_border=true&custom_title=Contribution%20Evolution" \
+            -o profile/graph.svg
+
       - name: Inject dark mode CSS into stats
         run: |
           sed -i 's|<svg |<svg\n  <style>\n    @media (prefers-color-scheme: dark) {\n      text, line, circle, path, .stat, .stat-label { fill: #ffffff !important; stroke: #ffffff !important; }\n      rect:not([fill^="none"]) { fill: #ffffff !important; }\n    }\n  </style>|' profile/stats.svg
           sed -i 's|<svg |<svg\n  <style>\n    @media (prefers-color-scheme: dark) {\n      text, line, circle, path, .lang-name { fill: #ffffff !important; stroke: #ffffff !important; }\n      rect:not([fill^="none"]) { fill: #ffffff !important; }\n    }\n  </style>|' profile/top-langs.svg
+          sed -i 's|<svg |<svg\n  <style>\n    @media (prefers-color-scheme: dark) {\n      .ct-label, .ct-grid, .ct-point, .ct-line, .ct-area, .ct-series-a .ct-area, .ct-axis-title, .header { fill: #ffffff !important; stroke: #ffffff !important; color: #ffffff !important; }\n    }\n  </style>|' profile/graph.svg
 
       - name: Commit cards
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git rm -f profile/stats-dark.svg profile/stats-light.svg profile/top-langs-dark.svg profile/top-langs-light.svg 2>/dev/null || true
-          git add profile/stats.svg profile/top-langs.svg
+          git add profile/stats.svg profile/top-langs.svg profile/graph.svg
           git diff --staged --quiet || git commit -m "Update README cards"
           git push
