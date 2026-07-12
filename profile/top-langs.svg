@@ -1,8 +1,8 @@
 
       <svg
         width="300"
-        height="165"
-        viewBox="0 0 300 165"
+        height="190"
+        viewBox="0 0 300 190"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         role="img"
@@ -13,7 +13,7 @@
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: #936CD6;
+            fill: #000000;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
           }
           @supports(-moz-appearance: auto) {
@@ -38,7 +38,7 @@
       }
     }
     .stat {
-      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #FFFFFF;
+      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #000000;
     }
     @supports(-moz-appearance: auto) {
       /* Selector detects Firefox */
@@ -47,7 +47,7 @@
     .bold { font-weight: 700 }
     .lang-name {
       font: 400 11px "Segoe UI", Ubuntu, Sans-Serif;
-      fill: #FFFFFF;
+      fill: #000000;
     }
     .stagger {
       opacity: 0;
@@ -93,7 +93,7 @@
           height="99%"
           stroke="#e4e2e2"
           width="299"
-          fill="#ffffff00"
+          fill="#00000000"
           stroke-opacity="0"
         />
 
@@ -118,7 +118,13 @@
           transform="translate(0, 55)"
         >
           
-    <svg data-testid="lang-items" x="25">
+    <svg
+  <style>
+    @media (prefers-color-scheme: dark) {
+      text, line, circle, path, .lang-name { fill: #ffffff !important; stroke: #ffffff !important; }
+      rect:not([fill^="none"]) { fill: #ffffff !important; }
+    }
+  </style>data-testid="lang-items" x="25">
       
   
       <mask id="rect-mask">
@@ -130,7 +136,7 @@
           data-testid="lang-progress"
           x="0"
           y="0"
-          width="109.24"
+          width="104.78"
           height="8"
           fill="#DA5B0B"
         />
@@ -138,9 +144,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="109.24"
+          x="104.78"
           y="0"
-          width="39.03"
+          width="37.44"
           height="8"
           fill="#f1e05a"
         />
@@ -148,9 +154,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="148.26999999999998"
+          x="142.22"
           y="0"
-          width="34.66"
+          width="33.25"
           height="8"
           fill="#3178c6"
         />
@@ -158,9 +164,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="182.92999999999998"
+          x="175.47"
           y="0"
-          width="32.37"
+          width="31.05"
           height="8"
           fill="#b07219"
         />
@@ -168,9 +174,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="215.29999999999998"
+          x="206.52"
           y="0"
-          width="26.57"
+          width="25.49"
           height="8"
           fill="#00B4AB"
         />
@@ -178,11 +184,31 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="241.86999999999998"
+          x="232.01000000000002"
           y="0"
-          width="18.119999999999997"
+          width="17.79"
           height="8"
           fill="#e34c26"
+        />
+      
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="239.8"
+          y="0"
+          width="16.28"
+          height="8"
+          fill="#3572A5"
+        />
+      
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="246.08"
+          y="0"
+          width="13.92"
+          height="8"
+          fill="#663399"
         />
       
       
@@ -191,42 +217,56 @@
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#DA5B0B" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Jupyter Notebook 43.70%
+        Jupyter Notebook 41.91%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#f1e05a" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        JavaScript 15.61%
+        JavaScript 14.98%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms">
       <circle cx="5" cy="6" r="5" fill="#3178c6" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        TypeScript 13.86%
+        TypeScript 13.30%
+      </text>
+    </g>
+  </g><g transform="translate(0, 75)">
+    <g class="stagger" style="animation-delay: 900ms">
+      <circle cx="5" cy="6" r="5" fill="#b07219" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        Java 12.42%
       </text>
     </g>
   </g></g><g transform="translate(150, 0)"><g transform="translate(0, 0)">
     <g class="stagger" style="animation-delay: 450ms">
-      <circle cx="5" cy="6" r="5" fill="#b07219" />
+      <circle cx="5" cy="6" r="5" fill="#00B4AB" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Java 12.95%
+        Dart 10.19%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms">
-      <circle cx="5" cy="6" r="5" fill="#00B4AB" />
+      <circle cx="5" cy="6" r="5" fill="#e34c26" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Dart 10.63%
+        HTML 3.12%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms">
-      <circle cx="5" cy="6" r="5" fill="#e34c26" />
+      <circle cx="5" cy="6" r="5" fill="#3572A5" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        HTML 3.25%
+        Python 2.51%
+      </text>
+    </g>
+  </g><g transform="translate(0, 75)">
+    <g class="stagger" style="animation-delay: 900ms">
+      <circle cx="5" cy="6" r="5" fill="#663399" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        CSS 1.57%
       </text>
     </g>
   </g></g>
