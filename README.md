@@ -32,6 +32,14 @@
 <br>
 <br>
 
+<p align="center">
+  <img src="Motif.svg" alt="" height="20" style="vertical-align: middle;">
+  <strong style="font-size: 1.5em; vertical-align: middle;"> Stack & Stats </strong>
+  <img src="Motif.svg" alt="" height="20" style="vertical-align: middle; transform: scaleX(-1);">
+</p>
+
+<br>
+
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
