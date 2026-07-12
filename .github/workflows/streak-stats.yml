@@ -16,7 +16,7 @@ jobs:
       - name: Download streak SVG
         run: |
           curl -sL -H "User-Agent: Mozilla/5.0" \
-            "https://streak-stats.demolab.com/?user=PANK4SS&theme=transparent&hide_border=true&background=00000000&stroke=FECE00&ring=FECE00&fire=FECE00&currStreakLabel=000000&sideNums=000000&currStreakNum=000000&sideLabels=000000&dates=000000" \
+            "https://streak-stats.demolab.com/?user=PANK4SS&theme=transparent&hide_border=true&background=00000000&stroke=BDF400&ring=BDF400&fire=BDF400&currStreakLabel=000000&sideNums=000000&currStreakNum=000000&sideLabels=000000&dates=000000" \
             -o profile/streak.svg
 
       - name: Inject dark mode CSS

@@ -16,13 +16,13 @@ jobs:
       - name: Stats card
         run: |
           curl -sL -H "User-Agent: Mozilla/5.0" \
-            "https://github-readme-stats-iota-ebon-40.vercel.app/api?username=PANK4SS&show_icons=true&hide_border=true&bg_color=00000000&title_color=FECE00&icon_color=FECE00&text_color=000000" \
+            "https://github-readme-stats-iota-ebon-40.vercel.app/api?username=PANK4SS&show_icons=true&hide_border=true&bg_color=00000000&title_color=BDF400&icon_color=BDF400&text_color=000000" \
             -o profile/stats.svg
 
       - name: Top languages
         run: |
           curl -sL -H "User-Agent: Mozilla/5.0" \
-            "https://github-readme-stats-iota-ebon-40.vercel.app/api/top-langs/?username=PANK4SS&layout=compact&hide_border=true&bg_color=00000000&title_color=FECE00&text_color=000000&langs_count=8" \
+            "https://github-readme-stats-iota-ebon-40.vercel.app/api/top-langs/?username=PANK4SS&layout=compact&hide_border=true&bg_color=00000000&title_color=BDF400&text_color=000000&langs_count=8" \
             -o profile/top-langs.svg
 
       - name: Inject dark mode CSS

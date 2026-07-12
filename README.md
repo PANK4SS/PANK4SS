@@ -83,7 +83,7 @@
 <br>
 
 <picture align="center">
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=PANK4SS&bg_color=00000000&color=ffffff&line=FECE00&point=FECE00&area=true&area_color=FECE00&hide_border=true&custom_title=Contribution%20Evolution">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=PANK4SS&bg_color=00000000&color=000000&line=FECE00&point=FECE00&area=true&area_color=FECE00&hide_border=true&custom_title=Contribution%20Evolution">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=PANK4SS&bg_color=00000000&color=000000&line=FECE00&point=FECE00&area=true&area_color=FECE00&hide_border=true&custom_title=Contribution%20Evolution" alt="Contribution Evolution" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=PANK4SS&bg_color=00000000&color=ffffff&line=BDF400&point=BDF400&area=true&area_color=BDF400&hide_border=true&custom_title=Contribution%20Evolution">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=PANK4SS&bg_color=00000000&color=000000&line=BDF400&point=BDF400&area=true&area_color=BDF400&hide_border=true&custom_title=Contribution%20Evolution">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=PANK4SS&bg_color=00000000&color=000000&line=BDF400&point=BDF400&area=true&area_color=BDF400&hide_border=true&custom_title=Contribution%20Evolution" alt="Contribution Evolution" width="100%">
 </picture>
