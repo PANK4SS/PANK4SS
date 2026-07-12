@@ -15,11 +15,11 @@ jobs:
 
       - name: Download streak SVG (dark mode)
         run: |
-          curl -sL "https://streak-stats.demolab.com/?user=PANK4SS&theme=transparent&hide_border=true&background=00000000&stroke=FFFFFF&ring=FFFFFF&fire=FFFFFF&currStreakLabel=FFFFFF&sideNums=FFFFFF&currStreakNum=FFFFFF&sideLabels=FFFFFF&dates=FFFFFF" -o profile/streak-dark.svg
+          curl -sL -H "User-Agent: Mozilla/5.0" "https://streak-stats.demolab.com/?user=PANK4SS&theme=transparent&hide_border=true&background=00000000&stroke=FFFFFF&ring=FFFFFF&fire=FFFFFF&currStreakLabel=FFFFFF&sideNums=FFFFFF&currStreakNum=FFFFFF&sideLabels=FFFFFF&dates=FFFFFF" -o profile/streak-dark.svg
 
       - name: Download streak SVG (light mode)
         run: |
-          curl -sL "https://streak-stats.demolab.com/?user=PANK4SS&theme=transparent&hide_border=true&background=00000000&stroke=000000&ring=000000&fire=000000&currStreakLabel=000000&sideNums=000000&currStreakNum=000000&sideLabels=000000&dates=000000" -o profile/streak-light.svg
+          curl -sL -H "User-Agent: Mozilla/5.0" "https://streak-stats.demolab.com/?user=PANK4SS&theme=transparent&hide_border=true&background=00000000&stroke=000000&ring=000000&fire=000000&currStreakLabel=000000&sideNums=000000&currStreakNum=000000&sideLabels=000000&dates=000000" -o profile/streak-light.svg
 
       - name: Commit and push
         run: |

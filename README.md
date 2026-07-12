@@ -55,8 +55,10 @@
 </td>
 <td width="50%" valign="top" align="center">
 
-<img src="./profile/streak-dark.svg#gh-dark-mode-only" alt="GitHub Streak" width="100%">
-<img src="./profile/streak-light.svg#gh-light-mode-only" alt="GitHub Streak" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/streak-dark.svg">
+  <img src="./profile/streak-light.svg" alt="GitHub Streak" width="100%">
+</picture>
 
 </td>
 </tr>
@@ -69,14 +71,18 @@
 <tr>
 <td width="50%" valign="top" align="center">
 
-<img src="./profile/stats-dark.svg#gh-dark-mode-only" alt="GitHub Stats" width="100%">
-<img src="./profile/stats-light.svg#gh-light-mode-only" alt="GitHub Stats" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg">
+  <img src="./profile/stats-light.svg" alt="GitHub Stats" width="100%">
+</picture>
 
 </td>
 <td width="50%" valign="top" align="center">
 
-<img src="./profile/top-langs-dark.svg#gh-dark-mode-only" alt="Top Languages" width="100%">
-<img src="./profile/top-langs-light.svg#gh-light-mode-only" alt="Top Languages" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/top-langs-dark.svg">
+  <img src="./profile/top-langs-light.svg" alt="Top Languages" width="100%">
+</picture>
 
 </td>
 </tr>
@@ -86,5 +92,8 @@
 <br>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=PANK4SS&bg_color=00000000&color=ffffff&line=ffffff&point=ffffff&area=true&area_color=ffffff&hide_border=true&custom_title=Contribution%20Evolution" width="100%">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=PANK4SS&bg_color=00000000&color=ffffff&line=ffffff&point=ffffff&area=true&area_color=ffffff&hide_border=true&custom_title=Contribution%20Evolution">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=PANK4SS&bg_color=00000000&color=000000&line=000000&point=000000&area=true&area_color=000000&hide_border=true&custom_title=Contribution%20Evolution" width="100%">
+  </picture>
 </p>
