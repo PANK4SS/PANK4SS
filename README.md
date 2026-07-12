@@ -13,10 +13,10 @@
 
 <br>
 
-<table>
+<table width="100%">
 <tr>
-<td width="250" valign="top" align="center">
-  <img src="About.png" width="230">
+<td width="35%" valign="top" align="center">
+  <img src="About.png" width="100%" style="max-width:230px;">
 </td>
 <td valign="top">
   <img src="Typing.svg" alt="Hey there! I am Pankassi Jean-Louis Rayane BICABA">
