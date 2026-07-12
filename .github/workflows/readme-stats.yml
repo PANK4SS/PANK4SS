@@ -13,13 +13,21 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Download stats SVG
+      - name: Stats card (dark mode)
         run: |
-          curl -sL "https://github-readme-stats.vercel.app/api?username=PANK4SS&show_icons=true&hide_border=true&background=00000000&title_color=936CD6&icon_color=936CD6&text_color=FFFFFF" -o profile/stats.svg
+          curl -sL "https://github-readme-stats.vercel.app/api?username=PANK4SS&show_icons=true&hide_border=true&background=00000000&title_color=FFFFFF&icon_color=FFFFFF&text_color=FFFFFF" -o profile/stats-dark.svg
 
-      - name: Download top languages SVG
+      - name: Stats card (light mode)
         run: |
-          curl -sL "https://github-readme-stats.vercel.app/api/top-langs/?username=PANK4SS&layout=compact&hide_border=true&background=00000000&title_color=936CD6&text_color=FFFFFF&langs_count=8" -o profile/top-langs.svg
+          curl -sL "https://github-readme-stats.vercel.app/api?username=PANK4SS&show_icons=true&hide_border=true&background=00000000&title_color=000000&icon_color=000000&text_color=000000" -o profile/stats-light.svg
+
+      - name: Top languages (dark mode)
+        run: |
+          curl -sL "https://github-readme-stats.vercel.app/api/top-langs/?username=PANK4SS&layout=compact&hide_border=true&background=00000000&title_color=FFFFFF&text_color=FFFFFF&langs_count=8" -o profile/top-langs-dark.svg
+
+      - name: Top languages (light mode)
+        run: |
+          curl -sL "https://github-readme-stats.vercel.app/api/top-langs/?username=PANK4SS&layout=compact&hide_border=true&background=00000000&title_color=000000&text_color=000000&langs_count=8" -o profile/top-langs-light.svg
 
       - name: Commit cards
         run: |

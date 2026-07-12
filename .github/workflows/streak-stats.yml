@@ -13,14 +13,18 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Download streak SVG
+      - name: Download streak SVG (dark mode)
         run: |
-          curl -sL "https://streak-stats.demolab.com/?user=PANK4SS&theme=transparent&hide_border=true&background=00000000&stroke=936CD6&ring=936CD6&fire=936CD6&currStreakLabel=936CD6&sideNums=936CD6&currStreakNum=936CD6&sideLabels=936CD6&dates=936CD6" -o profile/streak.svg
+          curl -sL "https://streak-stats.demolab.com/?user=PANK4SS&theme=transparent&hide_border=true&background=00000000&stroke=FFFFFF&ring=FFFFFF&fire=FFFFFF&currStreakLabel=FFFFFF&sideNums=FFFFFF&currStreakNum=FFFFFF&sideLabels=FFFFFF&dates=FFFFFF" -o profile/streak-dark.svg
+
+      - name: Download streak SVG (light mode)
+        run: |
+          curl -sL "https://streak-stats.demolab.com/?user=PANK4SS&theme=transparent&hide_border=true&background=00000000&stroke=000000&ring=000000&fire=000000&currStreakLabel=000000&sideNums=000000&currStreakNum=000000&sideLabels=000000&dates=000000" -o profile/streak-light.svg
 
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add profile/streak.svg
+          git add profile/streak-dark.svg profile/streak-light.svg
           git diff --staged --quiet || git commit -m "Update streak stats"
           git push

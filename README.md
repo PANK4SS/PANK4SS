@@ -55,7 +55,8 @@
 </td>
 <td width="50%" valign="top" align="center">
 
-<img src="./profile/streak.svg" alt="GitHub Streak" width="100%">
+<img src="./profile/streak-dark.svg#gh-dark-mode-only" alt="GitHub Streak" width="100%">
+<img src="./profile/streak-light.svg#gh-light-mode-only" alt="GitHub Streak" width="100%">
 
 </td>
 </tr>
@@ -68,12 +69,14 @@
 <tr>
 <td width="50%" valign="top" align="center">
 
-<img src="./profile/stats.svg" alt="GitHub Stats" width="100%">
+<img src="./profile/stats-dark.svg#gh-dark-mode-only" alt="GitHub Stats" width="100%">
+<img src="./profile/stats-light.svg#gh-light-mode-only" alt="GitHub Stats" width="100%">
 
 </td>
 <td width="50%" valign="top" align="center">
 
-<img src="./profile/top-langs.svg" alt="Top Languages" width="100%">
+<img src="./profile/top-langs-dark.svg#gh-dark-mode-only" alt="Top Languages" width="100%">
+<img src="./profile/top-langs-light.svg#gh-light-mode-only" alt="Top Languages" width="100%">
 
 </td>
 </tr>
