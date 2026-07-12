@@ -7,7 +7,11 @@
         xmlns="http://www.w3.org/2000/svg">
 <style>
 @media (prefers-color-scheme: dark) {
-  .ct-label, .ct-grid, .ct-point, .ct-line, .ct-area, .ct-series-a .ct-area, .ct-axis-title, .header { fill: #ffffff !important; stroke: #ffffff !important; color: #ffffff !important; }
+  .ct-label, .ct-axis-title, .header { fill: rgba(255,255,255,0.7) !important; color: rgba(255,255,255,0.7) !important; }
+  .ct-grid { stroke: rgba(255,255,255,0.15) !important; }
+  .ct-point { fill: #ffffff !important; stroke: #ffffff !important; }
+  .ct-line { stroke: #ffffff !important; }
+  .ct-area { fill: rgba(255,255,255,0.1) !important; }
 }
 </style>
 
