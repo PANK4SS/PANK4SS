@@ -1,14 +1,20 @@
+<!--
+  Generated file. Do not edit directly.
+  Source: themes/README.template.md
+  Active theme: Halloween (halloween) - accent #FF6600
+  Switch theme: ./scripts/apply-theme.sh <theme>
+-->
 <p align="center">
-  <img src="Pankass.webp" alt="Pankass">
+  <img src="themes/halloween/PANK4SS.webp" alt="PANK4SS">
 </p>
 
 <br>
 <br>
 
 <p align="center">
-  <img src="Motif.svg" alt="" height="20" style="vertical-align: middle;">
+  <img src="themes/halloween/Motif.svg" alt="" height="20" style="vertical-align: middle;">
   <strong style="font-size: 1.5em; vertical-align: middle;"> About Me </strong>
-  <img src="Motif.svg" alt="" height="20" style="vertical-align: middle; transform: scaleX(-1);">
+  <img src="themes/halloween/Motif.svg" alt="" height="20" style="vertical-align: middle; transform: scaleX(-1);">
 </p>
 
 <br>
@@ -16,10 +22,10 @@
 <table width="100%">
 <tr>
 <td width="35%" valign="top" align="center">
-  <img src="About.webp" width="100%" style="max-width:230px;">
+  <img src="themes/halloween/About.webp" width="100%" style="max-width:230px;">
 </td>
 <td valign="top">
-  <img src="Typing.svg" alt="Hey there! I am Pankassi Jean-Louis Rayane BICABA">
+  <img src="themes/halloween/Typing.svg" alt="Hey there! I am Pankassi Jean-Louis Rayane BICABA">
   <br><br>
   Tinkerer at heart. Breaks things to understand them, builds things to test the limits.<br>
   No stack trace left unread.<br>
@@ -33,9 +39,9 @@
 <br>
 
 <p align="center">
-  <img src="Motif.svg" alt="" height="20" style="vertical-align: middle;">
-  <strong style="font-size: 1.5em; vertical-align: middle;"> Stack & Stats </strong>
-  <img src="Motif.svg" alt="" height="20" style="vertical-align: middle; transform: scaleX(-1);">
+  <img src="themes/halloween/Motif.svg" alt="" height="20" style="vertical-align: middle;">
+  <strong style="font-size: 1.5em; vertical-align: middle;"> Stack &amp; Stats </strong>
+  <img src="themes/halloween/Motif.svg" alt="" height="20" style="vertical-align: middle; transform: scaleX(-1);">
 </p>
 
 <br>
@@ -55,7 +61,7 @@
 </td>
 <td width="50%" valign="top" align="center">
 
-<img src="https://github-readme-streak-stats-one-rust-44.vercel.app/?user=PANK4SS&theme=transparent&hide_border=true&background=00000000&stroke=BDF400&ring=BDF400&fire=BDF400&currStreakLabel=BDF400&sideNums=BDF400&currStreakNum=BDF400&sideLabels=BDF400&dates=BDF400" alt="GitHub Streak" width="100%">
+<img src="https://github-readme-streak-stats-one-rust-44.vercel.app/?user=PANK4SS&theme=transparent&hide_border=true&background=00000000&stroke=FF6600&ring=FF6600&fire=FF6600&currStreakLabel=FF6600&sideNums=FF6600&currStreakNum=FF6600&sideLabels=FF6600&dates=FF6600" alt="GitHub Streak" width="100%">
 
 </td>
 </tr>
@@ -68,12 +74,12 @@
 <tr>
 <td width="50%" valign="top" align="center">
 
-<img src="https://github-readme-stats-iota-ebon-40.vercel.app/api?username=PANK4SS&show_icons=true&hide_border=true&bg_color=00000000&title_color=BDF400&icon_color=BDF400&text_color=BDF400" alt="GitHub Stats" width="100%">
+<img src="https://github-readme-stats-iota-ebon-40.vercel.app/api?username=PANK4SS&show_icons=true&hide_border=true&bg_color=00000000&title_color=FF6600&icon_color=FF6600&text_color=FF6600" alt="GitHub Stats" width="100%">
 
 </td>
 <td width="50%" valign="top" align="center">
 
-<img src="https://github-readme-stats-iota-ebon-40.vercel.app/api/top-langs/?username=PANK4SS&layout=compact&hide_border=true&bg_color=00000000&title_color=BDF400&text_color=BDF400&langs_count=8" alt="Top Languages" width="100%">
+<img src="https://github-readme-stats-iota-ebon-40.vercel.app/api/top-langs/?username=PANK4SS&layout=compact&hide_border=true&bg_color=00000000&title_color=FF6600&text_color=FF6600&langs_count=8" alt="Top Languages" width="100%">
 
 </td>
 </tr>
@@ -83,5 +89,5 @@
 <br>
 
 <p align="center">
-  <img src="https://pank4ss-activity-graph.vercel.app/graph?username=PANK4SS&bg_color=00000000&color=BDF400&line=BDF400&point=BDF400&area=true&area_color=BDF400&hide_border=true&custom_title=Contribution%20Evolution" alt="Contribution Evolution" width="100%">
+  <img src="https://pank4ss-activity-graph.vercel.app/graph?username=PANK4SS&bg_color=00000000&color=FF6600&line=FF6600&point=FF6600&area=true&area_color=FF6600&hide_border=true&custom_title=Contribution%20Evolution" alt="Contribution Evolution" width="100%">
 </p>

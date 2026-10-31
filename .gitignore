@@ -1,0 +1,54 @@
+# Claude Code
+.claude/
+.claude.json
+.claude.json.backup
+CLAUDE.md
+CLAUDE.local.md
+.checkpoints/
+.mcp.json
+
+# AI / editor assistants
+.cursor/
+.cursorrules
+.aider*
+.windsurf/
+.github/copilot-instructions.md
+
+# Editors & IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS junk
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini
+
+# Tooling / deps
+node_modules/
+package-lock.json
+.venv/
+venv/
+__pycache__/
+*.log
+
+# Source images (only the exported .webp is committed)
+*.png
+*.jpg
+*.jpeg
+*.psd
+*.ai
+*.xcf
+
+# Scratch
+tmp/
+temp/
+scratch/
+*.bak
+*.orig
